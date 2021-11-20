@@ -1,0 +1,7 @@
+.container {
+  background-color: var(--white-alpha-25);
+  width: 1200px;
+  border: 1px solid var(--white-alpha-40);
+  margin: 30px auto;
+  padding-bottom: 20px;
+}

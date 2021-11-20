@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --aqua-light: #80ffff;
+  --cornflower-light: #8db0f2;
+  --dodgerBlue: dodgerblue;
+  --midNightBlue: midnightblue;
+  --white-alpha-25: rgba(255, 255, 255, 0.25);
+  --white-alpha-40: rgba(255, 255, 255, 0.4);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #2a2a72;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--aqua-light),
+    var(--cornflower-light)
+  );
+  height: 100%;
+}

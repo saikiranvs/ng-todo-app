@@ -1,0 +1,6 @@
+.navbar {
+  background-color: var(--white-alpha-40);
+}
+.navbar-text {
+  color: var(--dodgerBlue);
+}
